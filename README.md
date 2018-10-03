@@ -10,7 +10,7 @@ To build this library you will need a somewhat recent version of CMake installed
 
 First, you need to fetch the repository:
 
-    git clone 
+    git clone https://github.com/davidnewman/examplecpplib.git
     
 Next, grab any sub-modules:
 
@@ -22,7 +22,7 @@ Finally, you can use make to build the code and run the unit tests:
 
 After running the build, you should notice a directory named `artifacts`. This directory is where CMake places all of it's generated code as well as binary output. For example, you can run the example application like:
 
-    ./artifacts/factorial/factorial 6
+    ./artifacts/examples/factorial/factorial 6
 
 You can clean up using make:
 
