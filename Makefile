@@ -5,7 +5,7 @@ ARTIFACTS_DIR?=artifacts
 all: build
 
 artifacts:
-	cmake -B$(ARTIFACTS_DIR) -H.
+	cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -B$(ARTIFACTS_DIR) -H.
 
 build: artifacts
 	make -C $(ARTIFACTS_DIR)

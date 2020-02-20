@@ -39,3 +39,4 @@
 bin/
 artifacts/
 cmake-build-*/
+.clangd
